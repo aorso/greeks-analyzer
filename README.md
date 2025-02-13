@@ -14,11 +14,17 @@ Pour l'instant, ce dépôt est surtout une **base de code en construction**. L'a
 
 ### 📂 Structure du Code
 . ├── models 
+
 │ ├── option_models # Modèles pour les options (Vanilla, Barrier, Asian, etc.) 
+
 │ ├── greek_method # Méthodes pour le calcul des Grecs 
+
 │ ├── pricing_method # Méthodes de pricing (Black-Scholes, Monte Carlo, arbres binomiaux) 
+
 │ └── plot_tools # Visualisation avec Plotly et Streamlit 
+
 ├── strategy_tools # Analyse de stratégies d'options (straddle, strangle, butterfly, etc.) 
+
 └── test # Notebooks de test
 
 ### Prochaines Étapes
