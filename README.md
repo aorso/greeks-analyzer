@@ -12,6 +12,18 @@ Pour l'instant, ce dépôt est surtout une **base de code en construction**. L'a
 - Des outils d’analyse graphique interactifs.
 - Une optimisation des méthodes de pricing Monte Carlo pour accélérer les calculs.
 
+### 🚀 Tester le Pricer
+
+Si vous souhaitez tester le pricer, vous pouvez facilement le faire en suivant ces étapes :  
+1. **Téléchargez le projet** 
+2. **Activez l'environnement virtuel** (si nécessaire) et assurez-vous d'avoir installé les dépendances  
+3. **Lancez le fichier de test** `test (price and greek).ipynb` :  
+- Ouvrez le fichier dans un notebook Jupyter.  
+- **Renseignez vos propres valeurs** (prix de l’actif, volatilité, taux d’intérêt, maturité, etc.).  
+- Exécutez les cellules pour obtenir les résultats du pricing et des Grecs.
+
+
+
 ### 📂 Structure du Code
 . ├── models 
 
